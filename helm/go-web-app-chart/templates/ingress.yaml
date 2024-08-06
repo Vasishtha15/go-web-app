@@ -10,9 +10,9 @@ spec:
   rules:
   - host: "ayustudio.net"
     http:
-      paths: 
-      - path: "/courses"
-        pathType: Prefix
+      paths:
+      - pathType: Prefix
+        path: "/courses"
         backend:
           service:
             name: go-web-app-service
