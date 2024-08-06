@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: ayu1503/sampleapp:{{ .Values.image.tag }}
+        image: ayu1503/go-web-app:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
