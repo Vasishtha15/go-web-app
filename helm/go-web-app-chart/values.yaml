@@ -8,7 +8,7 @@ image:
   repository: ayu1503/sampleapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10265986063"
+  tag: "10272254368"
 
 ingress:
   enabled: false
